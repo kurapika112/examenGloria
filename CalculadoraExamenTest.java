@@ -14,7 +14,7 @@ class CalculadoraExamenTest {
 	@Test
 	void testPotencia() {
 		Calculadora calc = new Calculadora(3, 2);
-		assertTrue(calc.residu());
+		assertEquals(calc.residu(), 9);
 	}
 	
 	@Test
