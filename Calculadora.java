@@ -26,7 +26,7 @@ public class Calculadora {
 
 	public int potencia() {
 		
-		return (num1 * num1) * num2;
+		return (int) Math.pow(num1, num2);
 		
 	}
 }
